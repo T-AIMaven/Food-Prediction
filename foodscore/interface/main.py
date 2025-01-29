@@ -7,6 +7,7 @@ from foodscore import params
 ## Create model
 #model = create_model(input_shape = params.INPUT_SHAPE)
 
+
 ## Train model
 #fit_history = fit_model(model, train_ds, val_ds)
 
