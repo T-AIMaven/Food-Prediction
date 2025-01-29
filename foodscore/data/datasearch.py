@@ -9,6 +9,7 @@ import requests
 # Get Data
 def get_data(path = params.LOCAL_PATH, validation_split = 0.2, img_height = params.IMG_HEIGHT, img_width = params.IMG_WIDTH, bs = params.BATCH_SIZE):
 
+
     train_ds = image_dataset_from_directory(
                 path,
                 validation_split=validation_split,
