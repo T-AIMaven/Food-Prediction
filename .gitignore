@@ -1,0 +1,12 @@
+raw_data/
+**/.ipynb_checkpoints/
+.python-version
+*.egg-info
+.coverage
+.DS_Store
+*.csv
+**/__pycache__/
+.env
+*.pyc
+*.h5
+*.csv
