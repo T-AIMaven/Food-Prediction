@@ -95,7 +95,7 @@ For deployment, the following steps were taken:
 
 ## :clapper: **The Business Solution :arrow_right: Website**
 
-As a business solution a Website was created using Streamlit. For that, an additional [repository](https://github.com/benitomartin/foodscore-app) was created and is available for everyone. Instructions on how to use the Website can be found in that repository.
+As a business solution a Website was created using Streamlit. For that, an additional [repository](https://github.com/jayson_7jw/foodscore-app) was created and is available for everyone. Instructions on how to use the Website can be found in that repository.
 
 ![Screenshot App](https://user-images.githubusercontent.com/116911431/229893707-e95bf9ff-0d50-4d12-a6b9-cdb88ffc54e6.png)
 
@@ -115,5 +115,5 @@ First, you need to clone the repository and install the requirements by running 
 - Create an additional directory `raw_data/model` where the model will be saved
 - Run main.py to train the model, get the weights, and the nutrients. The weights will be saved in the `raw_data/model`
 - Create the Docker image and push it to Google Cloud Run
-- In the Website [repository](https://github.com/benitomartin/foodscore-app), under app.py, change the url under line 96, for your own url.
+- In the Website [repository](https://github.com/jayson_7jw/foodscore-app), under app.py, change the url under line 96, for your own url.
 
