@@ -13,7 +13,6 @@ from foodscore import params
 
 ## Load model
 saved_model=load_model(path = params.MODEL_PATH)
-
 ## Convert test picture
 image = convert_test_image(path = params.IMG_PATH, img_height = params.IMG_HEIGHT, img_width = params.IMG_WIDTH)
 
