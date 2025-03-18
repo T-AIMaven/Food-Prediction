@@ -10,7 +10,6 @@ from foodscore import params
 
 ## Train model
 #fit_history = fit_model(model, train_ds, val_ds)
-
 ## Load model
 saved_model=load_model(path = params.MODEL_PATH)
 ## Convert test picture
